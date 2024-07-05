@@ -75,7 +75,7 @@ main .intro {
 /* Add to styles/style.css */
 
 /* Mobile styles */
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -86,7 +86,7 @@ main .intro {
         gap: 10px;
     }
     .navbar a{
-        font-size: 16px; 
+        font-size:  14px; 
     }
 
     .book-session {

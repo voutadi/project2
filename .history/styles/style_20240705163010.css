@@ -25,7 +25,7 @@ header {
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     margin: 0;
     padding: 0;
 }
@@ -75,7 +75,7 @@ main .intro {
 /* Add to styles/style.css */
 
 /* Mobile styles */
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -86,7 +86,7 @@ main .intro {
         gap: 10px;
     }
     .navbar a{
-        font-size: 16px; 
+        font-size:  14px; 
     }
 
     .book-session {
@@ -94,7 +94,7 @@ main .intro {
     }
 
     .intro h1 {
-        font-size: 24px;
+        font-size: 2px;
     }
 
     .intro p {
@@ -109,3 +109,37 @@ main .intro {
 
 }
 
+@media (min-width: 376px) and (max-width: 800px) {
+    
+
+    .navbar ul {
+        
+        gap: 15px;
+    }
+    .navbar a{
+        font: size 16px; 
+    }
+
+    .book-session {
+        margin-top: 10px;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+
+    .intro .get-started {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .navbar{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+}
