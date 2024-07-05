@@ -117,7 +117,7 @@ main .intro {
         gap: 15px;
     }
     .navbar a{
-        font: size 16px; 
+        font: size 12px; 
     }
 
     .book-session {
@@ -135,10 +135,6 @@ main .intro {
     .intro .get-started {
         padding: 10px 20px;
         font-size: 16px;
-    }
-    .navbar{
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
 
